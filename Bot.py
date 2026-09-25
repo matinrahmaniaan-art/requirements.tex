@@ -8,17 +8,6 @@ from aiogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKe
 from aiogram.filters import Command
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.fsm.context import FSMContext
-
-# --- CONFIGURATION (FILL THESE IN) ---
-API_TOKEN = "8802905116:AAGCSn3033SwKWZBJa8JqxveXQbGBlspR3I"
-ADMIN_ID = 8806907120 #
-CARD_NUMBER = "6219-8619-7743-3431"
-CARD_OWNER = "متین رحمانیان"
-
-MIN_GB = 10
-MAX_GB = 500
-PRICE_PER_GB = 8490
-
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
 
